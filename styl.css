@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(1, 10, 59);
+    background-color: rgb(255,176,216);
+}
+
+h1.glownah {
+  color: white;
+  font-size: 24pt;
+}
+
+/* nieodwiedzony link */
+a:link {
+  /* podgrubienie czcionki */
+  font-weight: bold;
+  /* usuwa podkreślenie linku */
+  text-decoration: none;
+  /* ustawia kolor tekstu na szary */
+  color: grey;
+}
+
+/* odwiedzony link */
+a:visited {
+  color: green;
+}
+
+/* mysz nad linkiem */
+a:hover {
+  color: hotpink;
+}
+
+/* aktywny link */
+a:active {
+  color: blue;
+} 
